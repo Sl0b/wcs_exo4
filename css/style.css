@@ -1,3 +1,14 @@
 body {
-    background: url("/img/blue-sky-art-HD.jpg")
+    margin: 0 auto;
+    background: url("/img/blue-sky-art-HD.jpg");
+}
+
+header {
+    height: 200px;
+}
+
+div {
+    margin: auto;
+    height: 700px;
+    max-width: 800px;
 }
