@@ -1,11 +1,8 @@
-$(document).ready(function(){
-    $("#first").click(function(){
-        $("#firstp").slideToggle('slow');
-    });
-    $("#second").click(function(){
-        $("#secondp").slideToggle('slow');
-    });
-    $("#third").click(function(){
-        $("#thirdp").slideToggle('slow');
+$(function () {
+    $('.click').click(function () {
+        $(this).next().slideToggle();
+
+        $(this).parent().siblings().children().next().slideUp();
+        return false;
     });
 });
