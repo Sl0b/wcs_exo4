@@ -15,7 +15,13 @@ header {
     height: 100px;
 }
 
+section {
+    margin: 2% auto;
+    height: 700px;
+}
+
 div {
     margin: auto;
-    height: 700px;
+    max-width: 750px;
+    min-width: 500px;
 }
