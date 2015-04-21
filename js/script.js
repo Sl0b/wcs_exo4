@@ -1,8 +1,8 @@
 $(function () {
     $('.click').click(function () {
-        $(this).next().slideToggle();
+        $(this).next().slideToggle('slow');
 
-        $(this).parent().siblings().children().next().slideUp();
+        $(this).parent().siblings().children('p').slideUp('slow');
         return false;
     });
 });
