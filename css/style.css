@@ -84,7 +84,7 @@ p {
     }
 }
 
-@media all and (max-width: 980px) {
+@media all and (max-width: 1050px) {
     #contact {
         left: 0;
     }
