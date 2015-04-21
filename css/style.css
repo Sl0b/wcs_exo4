@@ -21,6 +21,15 @@ nav {
     min-width: 450px;
 }
 
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: beige;
+}
+
 section {
     margin: 2% auto;
     height: 700px;
