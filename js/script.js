@@ -6,3 +6,12 @@ $(function () {
         return false;
     });
 });
+
+$(function () {
+    $('#mouseover').mouseover(function () {
+        $(this).attr('src', '/img/logo2.png');
+    });
+    $('#mouseover').mouseout(function () {
+        $(this).attr('src', '/img/logo.png');
+    });
+});

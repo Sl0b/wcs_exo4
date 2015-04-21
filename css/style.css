@@ -23,11 +23,29 @@ nav {
 
 a,
 a:link,
-a:visited,
-a:hover,
-a:active {
+a:visited {
     text-decoration: none;
-    color: beige;
+    color: rgba(236, 240, 241,0.8);
+}
+
+a:hover {
+    color: #ecf0f1;
+}
+
+#logo {
+    position: relative;
+    right: 150px;
+    top: 20px;
+}
+
+#contact {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 23px;
+    float: right;
+    left: 110px;
+    top: 40px;
 }
 
 section {
@@ -49,7 +67,7 @@ p {
     display: none;
     text-align: center;
     font-family: 'Slabo 27px', serif;
-    color: beige;
+    color: #ecf0f1;
     font-size: 20px;
     max-width: 580px;
     min-width: 430px;
@@ -63,5 +81,14 @@ p {
     }
     p {
         max-width: 430px;
+    }
+}
+
+@media all and (max-width: 980px) {
+    #contact {
+        left: 0;
+    }
+    #logo {
+        right: 0;
     }
 }
