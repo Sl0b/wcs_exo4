@@ -55,6 +55,10 @@ section {
 
 h1 {
     margin: 2px auto;
+    font-family: 'Slabo 27px', serif;
+    color: rgba(236, 240, 241,0.9);
+    line-height: 80px;
+    text-indent: 35px;
     height: 80px;
     max-width: 750px;
     min-width: 450px;
