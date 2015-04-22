@@ -59,6 +59,11 @@ section {
     background-color: rgba(189, 195, 199,0.2);
 }
 
+iframe {
+    display: block;
+    margin: 4% auto;
+}
+
 @media all and (max-width: 832px) {
     h1 {
         margin: 2px 5% auto;
