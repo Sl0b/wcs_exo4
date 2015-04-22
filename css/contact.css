@@ -1,0 +1,83 @@
+body {
+    margin: 0 auto;
+    background-image: url("/img/blue-sky-art-HD.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+header {
+    margin: 0 5% auto;
+    max-width: 1750px;
+    min-width: 450px;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.4);
+    height: 100px;
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 750px;
+    min-width: 450px;
+}
+
+a,
+a:link,
+a:visited {
+    text-decoration: none;
+    color: rgba(236, 240, 241,0.8);
+}
+
+a:hover {
+    color: #ecf0f1;
+}
+
+#logo {
+    position: relative;
+    right: 150px;
+    top: 20px;
+}
+
+#contact {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 23px;
+    float: right;
+    left: 110px;
+    top: 40px;
+}
+
+section {
+    margin: 2% auto;
+    font-family: 'Slabo 27px', serif;
+    color: rgba(236, 240, 241,0.9);
+    height: 600px;
+    max-width: 750px;
+    min-width: 450px;
+    border: 1px solid rgba(255,255,255,0.4);
+    background-color: rgba(189, 195, 199,0.2);
+}
+
+iframe {
+    display: block;
+    margin: 4% auto;
+}
+
+@media all and (max-width: 832px) {
+    h1 {
+        margin: 2px 5% auto;
+    }
+    p {
+        max-width: 430px;
+    }
+}
+
+@media all and (max-width: 1050px) {
+    #contact {
+        left: 0;
+    }
+    #logo {
+        right: 0;
+    }
+}
