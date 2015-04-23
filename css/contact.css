@@ -3,6 +3,7 @@ body {
     background-image: url("../img/sky.jpg");
     background-position: top center;
     background-repeat: no-repeat;
+    background-color: cadetblue;
 }
 
 header {
