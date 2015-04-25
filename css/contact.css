@@ -3,6 +3,7 @@ body {
     background-image: url("../img/sky.jpg");
     background-position: top center;
     background-repeat: no-repeat;
+    background-color: cadetblue;
 }
 
 header {
@@ -36,6 +37,11 @@ a:hover {
     position: relative;
     right: 150px;
     top: 20px;
+    opacity: 0.8;
+}
+
+#logo:hover {
+    opacity: 1;
 }
 
 #contact {
